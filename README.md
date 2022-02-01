@@ -8,4 +8,9 @@ How to dockerize spring boot application using maven plugin
 docker build -t java-spring-boot .<br>
 docker tag java-spring-boot lalatenduswain/java-spring-boot:java-spring-boot<br>
 docker push  lalatenduswain/java-spring-boot:java-spring-boot<br>
+
+
+#From Dockerhub
+
+docker pull lalatenduswain/java-spring-boot:java-spring-boot<br>
 docker run -p 8080:8080 lalatenduswain/java-spring-boot:java-spring-boot<br>
