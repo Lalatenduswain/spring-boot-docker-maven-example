@@ -1,8 +1,10 @@
-# spring-boot-docker-maven-example
+# Spring boot Docker Maven
 How to dockerize spring boot application using maven plugin
 
 
-Dockerfile Command :<br>
+#Dockerfile Command :<br>
+
+
 docker build -t java-spring-boot .<br>
 docker tag java-spring-boot lalatenduswain/java-spring-boot:java-spring-boot<br>
 docker push  lalatenduswain/java-spring-boot:java-spring-boot<br>
