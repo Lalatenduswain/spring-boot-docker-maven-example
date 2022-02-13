@@ -11,7 +11,7 @@ public class SpringBootDockerMavenApplication {
 	
 	 @RequestMapping("/")
 	  public String home() {
-	    return "Hello Docker World";
+	    return "Hello Docker World , Lalatendu";
 	  }
 
 	public static void main(String[] args) {
